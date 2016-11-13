@@ -1,0 +1,2043 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Conf",
+				"configuration"
+			],
+			[
+				"W",
+				"WP_CONTENT_URL"
+			],
+			[
+				"WP",
+				"WP_CONTENT_DIR"
+			],
+			[
+				"APP",
+				"APP_CONF〔constant〕"
+			],
+			[
+				"roo",
+				"$rootPath〔variable〕"
+			],
+			[
+				"en",
+				"$environment〔variable〕"
+			],
+			[
+				"conf",
+				"$config〔variable〕"
+			],
+			[
+				"r",
+				"rootPath〔variable〕"
+			],
+			[
+				"def",
+				"$default〔variable〕"
+			],
+			[
+				"dev",
+				"development"
+			],
+			[
+				"cons",
+				"__construct〔function〕"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"Sym",
+				"Symfony\\Component\\Yaml\\Parser〔class〕"
+			],
+			[
+				"var",
+				"$variable〔variable〕"
+			],
+			[
+				"mact",
+				"matches"
+			],
+			[
+				"app",
+				"apply_filters〔function〕"
+			],
+			[
+				"ge",
+				"get_template_part"
+			],
+			[
+				"the",
+				"the_post〔function〕"
+			],
+			[
+				"hav",
+				"have_posts〔function〕"
+			],
+			[
+				"log",
+				"logfile"
+			],
+			[
+				"CONTE",
+				"WP_CONTENT_URL〔constant〕"
+			],
+			[
+				"bool",
+				"boolval〔function〕"
+			],
+			[
+				"na",
+				"$name〔variable〕"
+			],
+			[
+				"ch",
+				"character"
+			],
+			[
+				"set",
+				"setText〔function〕"
+			],
+			[
+				"get",
+				"getPostBySlug〔function〕"
+			],
+			[
+				"cal",
+				"$callback〔variable〕"
+			],
+			[
+				"call",
+				"call_user_func〔function〕"
+			],
+			[
+				"json",
+				"json_encode〔function〕"
+			],
+			[
+				"th",
+				"$this〔variable〕"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"pos",
+				"post-type"
+			],
+			[
+				"reg",
+				"register_posttypes〔function〕"
+			],
+			[
+				"array",
+				"array〔keyword〕"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"exp",
+				"exports〔variable〕"
+			],
+			[
+				"scr",
+				"scrollvalue〔function〕"
+			],
+			[
+				"expl",
+				"explorermobile"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background〔variable〕"
+			],
+			[
+				"name",
+				"namespace〔variable〕"
+			],
+			[
+				"but",
+				"button"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"no",
+				"notInitialized"
+			],
+			[
+				"element",
+				"elements"
+			],
+			[
+				"ini",
+				"initialized"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"query",
+				"query_posts〔function〕"
+			],
+			[
+				"char",
+				"$character〔variable〕"
+			],
+			[
+				"cha",
+				"$character〔variable〕"
+			],
+			[
+				"is",
+				"is_null"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"q",
+				"query_vars"
+			],
+			[
+				"con",
+				"con\tfunction __construct"
+			],
+			[
+				"left",
+				"leftImages"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"dep",
+				"depInput"
+			],
+			[
+				"state",
+				"state.$root"
+			],
+			[
+				"elem",
+				"element〔variable〕"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"a",
+				"attributes"
+			],
+			[
+				"parm",
+				"param3"
+			],
+			[
+				"par",
+				"param2"
+			],
+			[
+				"param",
+				"param1"
+			],
+			[
+				"req",
+				"request〔variable〕"
+			],
+			[
+				"marke",
+				"markedRenderer"
+			],
+			[
+				"mark",
+				"markedRenderer〔function〕"
+			],
+			[
+				"mar",
+				"markedRenderer〔function〕"
+			],
+			[
+				"rend",
+				"renderer〔variable〕"
+			],
+			[
+				"to",
+				"toLower"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"add",
+				"addFilter"
+			],
+			[
+				"requ",
+				"require〔function〕"
+			],
+			[
+				"form",
+				"formElement"
+			],
+			[
+				"depe",
+				"dependencies"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"list-sty",
+				"list-style-position"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"filte",
+				"filterRoutes〔function〕"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border-color",
+				"border-top-color"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"col",
+				"column-reverse"
+			],
+			[
+				"g003",
+				"g003_content"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"rotate",
+				"rotateX()"
+			],
+			[
+				"g005",
+				"g005_navigation"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"s",
+				"source"
+			],
+			[
+				"arr",
+				"arrowClass〔variable〕"
+			],
+			[
+				"plus",
+				"plusClass〔variable〕"
+			],
+			[
+				"chec",
+				"checkmarkClass〔variable〕"
+			],
+			[
+				"check",
+				"checkmark"
+			],
+			[
+				"on",
+				"onItemRemoved"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"note",
+				"notepadEnabled"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"sett",
+				"settings〔variable〕"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"type",
+				"typeof〔keyword〕"
+			],
+			[
+				"spaw",
+				"spawnOptions"
+			],
+			[
+				"m155",
+				"m155_notepad_header"
+			],
+			[
+				"gall",
+				"galleryState〔variable〕"
+			],
+			[
+				"print",
+				"printService"
+			],
+			[
+				"prod",
+				"productVOJSON"
+			],
+			[
+				"spa",
+				"spawnOptions"
+			],
+			[
+				"fil",
+				"filter〔argument〕"
+			],
+			[
+				"debu",
+				"debugger〔keyword〕"
+			],
+			[
+				"checkbo",
+				"checkboxListInvalid"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"contact",
+				"contactset"
+			],
+			[
+				"margi-",
+				"margin-bottom"
+			],
+			[
+				"m182",
+				"m182_animatedbackgroundasset"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"item",
+				"itemsSelector"
+			],
+			[
+				"g05",
+				"g054_backclubclassifieds_items"
+			],
+			[
+				"lis",
+				"listSelector"
+			],
+			[
+				"tabb",
+				"tabbar"
+			],
+			[
+				"isContent",
+				"isContentContainer"
+			],
+			[
+				"gel",
+				"gelöscht"
+			],
+			[
+				"g0",
+				"g054_backclubclassifieds_item"
+			],
+			[
+				"ite",
+				"itemSelector"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "sph",
+		"selected_items":
+		[
+			[
+				"sph",
+				"Set Syntax: PHP"
+			],
+			[
+				"sp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sy",
+				"Set Syntax: YAML"
+			],
+			[
+				"sphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"indt",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sht",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Javascript Beautify"
+			],
+			[
+				"syam",
+				"Set Syntax: YAML"
+			],
+			[
+				"scoff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"sjsn",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"indtt",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"stw",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"g",
+				"Git: Blame"
+			],
+			[
+				"sjin",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"bl",
+				"Git: Blame"
+			],
+			[
+				"sm",
+				"Set Syntax: Markdown"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"jinj",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"jin",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"beaut",
+				"Javascript Beautify"
+			],
+			[
+				"min",
+				"Minify::Default File Settings"
+			],
+			[
+				"mini",
+				"Minify::User File Settings"
+			],
+			[
+				"beait",
+				"HTMLBeautify"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sjs",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"git",
+				"Git: Diff Current File"
+			],
+			[
+				"gb",
+				"Git: Blame"
+			],
+			[
+				"gbl",
+				"Git: Blame"
+			],
+			[
+				"sjso",
+				"Set Syntax: JSON (Javascript Next)"
+			],
+			[
+				"indttt",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"gi",
+				"Git: Blame"
+			],
+			[
+				"snipp",
+				"Snippet: js-url"
+			],
+			[
+				"sno",
+				"Snippet: js-oetker-module"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"gitb",
+				"Git: Blame"
+			],
+			[
+				"gibl",
+				"Git: Blame"
+			],
+			[
+				"gitbl",
+				"Git: Blame"
+			],
+			[
+				"git re",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"gli",
+				"GLI: Input Project ID"
+			],
+			[
+				"smk",
+				"Set Syntax: Markdown"
+			],
+			[
+				"book",
+				"Bookmarks: Clear All"
+			],
+			[
+				"gitgut",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"git his",
+				"Git: Diff Current File (Ignore Whitespace)"
+			],
+			[
+				"ghit",
+				"Git: Commit history"
+			],
+			[
+				"gtb",
+				"Git: Blame"
+			],
+			[
+				"git branch",
+				"Git: Change Branch"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"jsj",
+				"Set Syntax: JSON (Javascript Next)"
+			],
+			[
+				"shtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"sma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"red",
+				"Redlime: Project issues"
+			],
+			[
+				"redlime",
+				"Redlime issue: Change project"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"gitd",
+				"Git: Diff Current File"
+			],
+			[
+				"git bran",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"gita",
+				"Git: Add..."
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"inds",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"b",
+				"Bookmarks: Clear All"
+			],
+			[
+				"git b",
+				"Git: Blame"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sshell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"lintsett",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"gitchec",
+				"Git: Change Branch"
+			],
+			[
+				"ssmd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sjinj",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"jinja",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"gitc",
+				"Git: Commit history"
+			],
+			[
+				"sublintsett",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sji",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"proje",
+				"Project: Edit Project"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"gitgu",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"spla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sjson",
+				"Set Syntax: JSON (Javascript Next)"
+			],
+			[
+				"jj",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"sbash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"settings",
+				"Preferences: Settings - Default"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sj",
+				"Set Syntax: Jinja Templates"
+			],
+			[
+				"sbas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sav",
+				"Project: Save As"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 312.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/iske/Sites/privat/wp-config"
+	],
+	"file_history":
+	[
+		"/Users/iske/Sites/privat/wp-config/src/Configuration/Configuration.php",
+		"/Users/iske/Sites/privat/wp-config/src/Configuration/UrlSet.php",
+		"/Users/iske/Sites/privat/wp-config/wp-config.sublime-project",
+		"/Users/iske/Sites/privat/wp-config/composer.json",
+		"/Users/iske/Sites/privat/wp-config/.editorconfig",
+		"/Users/iske/Sites/privat/wp-setup/conf/development/application.yml",
+		"/Users/iske/Sites/privat/wp-setup/.editorconfig",
+		"/Users/iske/Sites/privat/wp-setup/conf/development/database.yml",
+		"/Users/iske/Sites/privat/wp-setup/composer.json",
+		"/Users/iske/Sites/privat/wp-setup/logs/.gitkeep",
+		"/Users/iske/Sites/privat/wp-setup/.gitignore",
+		"/Users/iske/Sites/privat/wp-setup/wp-setup.sublime-project",
+		"/Users/iske/Sites/privat/wp-setup/.htaccess",
+		"/Users/iske/Sites/privat/wp-setup/README.md",
+		"/Users/iske/Sites/privat/wp-setup/public/extensions/plugins/.gitkeep",
+		"/Users/iske/Sites/privat/wp-setup/public/extensions/mu-plugins/.gitkeep",
+		"/Users/iske/Sites/privat/wp-setup/setup.sh",
+		"/Users/iske/Sites/scotch-box/setup.sh",
+		"/Users/iske/Sites/privat/wp-setup/src/Configuration/Configuration.php",
+		"/Users/iske/Sites/privat/wp-setup/src/Configuration/UrlSet.php",
+		"/Users/iske/Sites/privat/wp-setup/public/wp-config.php",
+		"/Users/iske/Sites/privat/wp-setup/conf/load.php",
+		"/Users/iske/Sites/scotch-box/Vagrantfile",
+		"/Users/iske/Sites/privat/wp-setup/conf/staging/application.yml",
+		"/Users/iske/Sites/privat/wp-setup/wp-cli.yml",
+		"/Users/iske/Sites/privat/wp-setup/public/index.php",
+		"/Users/iske/Sites/privat/wp-setup/public/uploads/.gitkeep",
+		"/Users/iske/Sites/privat/wp-setup/conf/production/application.yml",
+		"/Users/iske/Sites/privat/wp-setup/vendor/pi/wp-env-config/src/WPConfig/UrlSet.php",
+		"/Users/iske/Sites/privat/wp-setup/vendor/pi/wp-env-config/src/WPConfig/Configuration.php",
+		"/Users/iske/Sites/privat/wp-setup/conf/production/database.yml",
+		"/Users/iske/Sites/privat/wp-setup/conf/staging/database.yml",
+		"/Users/iske/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/iske/Sites/privat/wp-setup/public/environments.php",
+		"/Users/iske/Sites/privat/wp-setup/conf/environments.yml",
+		"/Users/iske/Sites/privat/wp-setup/composer.lock",
+		"/Users/iske/Sites/privat/wp-setup/.git/config",
+		"/Users/iske/Sites/privat/adrian-vidak/conf/development/application.yml",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/Theme.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-config.php",
+		"/Users/iske/Sites/privat/adrian-vidak/adrian-vidak.sublime-project",
+		"/Users/iske/Sites/privat/adrian-vidak/environments.php",
+		"/Users/iske/Sites/privat/adrian-vidak/.editorconfig",
+		"/Users/iske/Sites/privat/adrian-vidak/conf/development/config.php",
+		"/Users/iske/Sites/privat/adrian-vidak/conf/development/database.yml",
+		"/Users/iske/Sites/privat/adrian-vidak/readme.html",
+		"/Users/iske/Sites/privat/adrian-vidak/development",
+		"/Users/iske/Sites/privat/adrian-vidak/sftp-config.json",
+		"/Users/iske/Sites/privat/adrian-vidak/.gitlab-ci.yml",
+		"/Users/iske/Sites/privat/adrian-vidak/ci/setup.sh",
+		"/Users/iske/Sites/privat/adrian-vidak/ci/teardown.sh",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/bower.json",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/style.css",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/package.json",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/sass/build.css",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/sass/app.scss",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/sass/app.css",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/sass/admin.scss",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/sass/admin.css",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/sass/admin.build.css",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/app.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/application/base.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/application/debug.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/build.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/build.js.map",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/components/browser.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/components/loader.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/components/modules.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/components/parallax.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/libraries/visible.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/utils/ajax.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/utils/buttonlistener.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/utils/keylistener.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts/utils/module-loader.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/groups/g001-header/js/g001-header.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/groups/g002-footer/js/g002-footer.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/groups/g003-menu/js/g003-menu.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/groups/g004-content/js/g004-content.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/groups/g005-sidebar/js/g005-sidebar.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/groups/g009-gallery/js/g009-gallery.js",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/pages/gallery.pi",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/vendor/pi/twigextensions/src/TwigExtensions/BaseTwigExtension/BaseTwigExtension.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/Gruntfile.coffee",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/README.md",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/groups/g004-content/g004-content.pi",
+		"/Users/iske/Sites/privat/adrian-vidak/environments/development/application.yml",
+		"/Users/iske/Sites/privat/adrian-vidak/environments/development/database.yml",
+		"/Users/iske/Sites/privat/adrian-vidak/environments/development/config.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-cron.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/vendor/pi/factory/src/Factory/BaseTheme.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/functions.php",
+		"/Users/iske/Sites/privat/jacqueline-iske/development",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/vendor/pi/simpletheme/src/SimpleTheme/SimpleTheme.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/envira-gallery/envira-gallery.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/envira-gallery/includes/global/shortcode.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/base.pi",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-includes/shortcodes.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/envira-standalone/envira-standalone.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/envira-pagination/envira-pagination.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/envira-pagination/includes/global/shortcode.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/soliloquy-dynamic/includes/global/shortcode.php",
+		"/Users/iske/Downloads/envira-gallery-660-07-04-2016.json",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/sass/base/_reset.scss",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/sass/utils/_vars.scss",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/groups/g002-footer/g002-footer.pi",
+		"/private/var/folders/gb/35lnnvyd0g71z7__4ljd_yv9xccpfp/T/641b6653-2cd5-4e1b-9a83-4afcd04f46cf/adrian-vidak/wp-content/themes/pidev/templates/base.pi",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/envira-gallery/assets/js/min/envira-min.js",
+		"/private/var/folders/gb/35lnnvyd0g71z7__4ljd_yv9xccpfp/T/641b6653-2cd5-4e1b-9a83-4afcd04f46cf/adrian-vidak/wp-content/themes/pidev/vendor/pi/simpletheme/src/SimpleTheme/SimpleTheme.php",
+		"/private/var/folders/gb/35lnnvyd0g71z7__4ljd_yv9xccpfp/T/641b6653-2cd5-4e1b-9a83-4afcd04f46cf/adrian-vidak-v1.0.0/cms/wp-config.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/composer.json",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/templates/pages/album.pi",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/vendor/pi/factory/src/Factory/VO/Menu.php",
+		"/Users/iske/Sites/privat/wp-factory-packages/src/Factory/Router.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/vendor/pi/factory/src/Factory/Router.php",
+		"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/timber-library/lib/Timber.php",
+		"/private/var/folders/gb/35lnnvyd0g71z7__4ljd_yv9xccpfp/T/641b6653-2cd5-4e1b-9a83-4afcd04f46cf/adrian-vidak/wp-content/themes/pidev/vendor/pi/factory/src/Factory/Router.php",
+		"/private/var/folders/gb/35lnnvyd0g71z7__4ljd_yv9xccpfp/T/641b6653-2cd5-4e1b-9a83-4afcd04f46cf/adrian-vidak/wp-content/themes/pidev/vendor/pi/factory/src/Factory/BaseTheme.php",
+		"/Users/iske/Sites/privat/adrian-vidak/environments/production/config.php",
+		"/Users/iske/Sites/privat/adrian-vidak/.gitignore",
+		"/Users/iske/Library/LaunchAgents/io.gitignore.local.plist",
+		"/Users/iske/Sites/privat/tools/gitignore.io/server.js",
+		"/private/var/folders/gb/35lnnvyd0g71z7__4ljd_yv9xccpfp/T/641b6653-2cd5-4e1b-9a83-4afcd04f46cf/adrian-vidak-v1.0.0/cms/wp-content/themes/pi-dev/single-envira.php",
+		"/private/var/folders/gb/35lnnvyd0g71z7__4ljd_yv9xccpfp/T/641b6653-2cd5-4e1b-9a83-4afcd04f46cf/adrian-vidak-v1.0.0/cms/wp-content/themes/pi-dev/template-parts/content-single-envira.php",
+		"/private/var/folders/gb/35lnnvyd0g71z7__4ljd_yv9xccpfp/T/641b6653-2cd5-4e1b-9a83-4afcd04f46cf/adrian-vidak-v1.0.0/cms/wp-content/themes/pi-dev/template-parts/content-single.php",
+		"/Users/iske/Sites/privat/adrian-vidak/.git/config",
+		"/Users/iske/Sites/privat/adrian-vidak/environments/staging/config.php",
+		"/Users/iske/Sites/privat/adrian-vidak/environments/staging/application.yml",
+		"/Users/iske/Sites/privat/adrian-vidak/environments/production/application.yml"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins",
+			"/Users/iske/Sites/privat/adrian-vidak,*.php",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins,*.php",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/envira-gallery,*.php",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/envira-gallery",
+			"/Users/iske/Sites/privat/adrian-vidak",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/assets/scripts",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/envira-gallery/includes/admin",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins,*.php",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/plugins/soliloquy",
+			"/Users/iske/Sites/privat/adrian-vidak/wp-content/themes/pidev/,*.js",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates,,*.scss",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates,",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/,",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/,*.json,-node_modules/*.json,-bower_components/*.json",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/,*.json",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/application,*.js",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/application,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates,+*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/application,-*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,-*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,*.js",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates,*.js",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source,*.js",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/application,*.js",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates,*.scss",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/professional,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/professional,*.scss",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/professional,+.scss",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/professional,*+scss",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,*.j2,-examples/*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,*.j2,-/examples/*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,*.js",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,*.scss",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/base/,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/,*.js",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/professional//module-groups/g503-search/",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/,*.scss",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/professional/",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/,*.scss",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/responsive-2015/source/templates/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/,*.scss",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/professional",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/,*.j2",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/,",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/,-*.js",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/page-types/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/module-groups/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/,*.scss",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/sources/templates/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/models/g037/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/models/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/models/m047/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/module-groups/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/page-types/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/**/**/sass/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/**/*.scss",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/models/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/module-groups",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/page-types/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base/page-types/",
+			"/Users/iske/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/source/templates/base",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"* ",
+			"PROJECTNAME",
+			"WPConfig",
+			"wordpress",
+			"app",
+			"conf",
+			"configFile",
+			"get('DB_",
+			"DB_",
+			"env",
+			"conf",
+			"environment",
+			"hostname",
+			"public",
+			"hostname",
+			"$hostname",
+			"APP_ROOT",
+			"option",
+			"\t\t$",
+			"$",
+			"conf",
+			"public",
+			" . ",
+			"$key",
+			"$env",
+			"array_merge",
+			"staging",
+			"case '",
+			"$table_prefix",
+			"$root_dir",
+			"$webroot_dir",
+			"config-loader",
+			"   ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"\t",
+			"development",
+			"environments",
+			"|-- ",
+			"USER",
+			"ROOT",
+			"@version 2.0.22",
+			"v2.0.22",
+			"@package {package-name}",
+			"@package",
+			"@package kompass-transporte",
+			"@version 2.0.21",
+			"\\Timber",
+			"* @version 2.0.20",
+			"* @version 2.0.19",
+			"get_pagination_page",
+			"get_gallery_config",
+			"envira-pagination",
+			"get_query_var",
+			"$_GET",
+			"'id', ",
+			"envira_standalone_gallery_pre_get_posts",
+			"envira_id",
+			"function do_shortcode(",
+			"do_shortcode(",
+			"do_shortcode",
+			"envira_id",
+			"envira_is",
+			"page",
+			"envira_standalone_get_slug",
+			"page",
+			"feature/#00000-Description",
+			"c72b37",
+			"* @version 2.0.18",
+			"* @version 2.0.17",
+			"rgba(45, 51, 61, 0.3)",
+			"  ",
+			"    ",
+			"   ",
+			"  ",
+			", ",
+			"  ",
+			" }",
+			"Farbe_127",
+			"* @version 2.0.16",
+			"* @version 2.0.15",
+			"* @version 2.0.14",
+			"* @version 2.0.13",
+			"* @version 2.0.12",
+			"gallery",
+			"if (!isset($template)) {\n\t\t\t\t\t\t$template = 'page';\n\t\t\t\t\t}",
+			"last",
+			"album",
+			"last",
+			"gallery",
+			"protected ",
+			"getGallery",
+			"getGalleryByName",
+			"getID",
+			"gallery",
+			"exec_function",
+			"post",
+			"\t\t  ",
+			"album",
+			"shortc",
+			" 'p' ",
+			"p",
+			"p'",
+			"envira_standalone_insert_gallery_shortcode",
+			"envira_standalone_pre_get_posts",
+			"query",
+			"envira_standalone_get_slug",
+			"/envira",
+			"/envira/",
+			"$parser",
+			"* @version 2.0.11",
+			"* @version 2.0.10",
+			"* @version 2.0.9",
+			"* @version 2.0.8",
+			"vimeo",
+			"static",
+			"\";}}}",
+			"static",
+			"* @version 2.0.7",
+			"Anzah",
+			"anzah",
+			"* @version 2.0.6",
+			"$this",
+			"* @version 2.0.4",
+			"* @version 2.0.5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@version 2.0.23",
+			"v2.0.23",
+			"@package adrian-vidak",
+			"@version 2.0.22",
+			"* @version 2.0.21",
+			"* @version 2.0.20",
+			"* @version 2.0.19",
+			"* @version 2.0.18",
+			"* @version 2.0.17",
+			"* @version 2.0.16",
+			"* @version 2.0.15",
+			"* @version 2.0.14",
+			"* @version 2.0.13",
+			"* @version 2.0.12",
+			"* @version 2.0.11",
+			"* @version 2.0.10",
+			"* @version 2.0.9",
+			"* @version 2.0.8",
+			"* @version 2.0.7",
+			"* @version 2.0.6",
+			"* @version 2.0.5",
+			"* @version 2.0.4",
+			"* @version 2.0.3",
+			"* @version 2.0.2",
+			"base/page-types/t144-pressdownload/models",
+			"{% set m031BackgroundModel = false|defaultModel('/base/modules/m031-background/models/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wp-config.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app",
+				"conf/development/application.yml"
+			],
+			[
+				"appl",
+				"conf/development/application.yml"
+			],
+			[
+				"galler",
+				"templates/pages/gallery.pi"
+			],
+			[
+				"wp-c",
+				"adrian-vidak/wp-cron.php"
+			],
+			[
+				"sty",
+				"pidev/style.css"
+			],
+			[
+				"bow",
+				"pidev/bower.json"
+			],
+			[
+				"packa",
+				"pidev/package.json"
+			],
+			[
+				"galle",
+				"templates/pages/gallery.pi"
+			],
+			[
+				"pack",
+				"pidev/package.json"
+			],
+			[
+				"baseth",
+				"pidev/vendor/pi/factory/src/Factory/BaseTheme.php"
+			],
+			[
+				"sim",
+				"pidev/vendor/pi/simpletheme/src/SimpleTheme/SimpleTheme.php"
+			],
+			[
+				"envira-s",
+				"adrian-vidak/wp-content/plugins/envira-standalone/envira-standalone.php"
+			],
+			[
+				"base",
+				"templates/base.pi"
+			],
+			[
+				"styl",
+				"pidev/style.css"
+			],
+			[
+				"bowe",
+				"pidev/bower.json"
+			],
+			[
+				"g002",
+				"templates/groups/g002-footer/g002-footer.pi"
+			],
+			[
+				"gall",
+				"templates/pages/gallery.pi"
+			],
+			[
+				"them",
+				"pidev/Theme.php"
+			],
+			[
+				"com",
+				"pidev/composer.json"
+			],
+			[
+				"vomenu",
+				"pidev/vendor/pi/factory/src/Factory/VO/Menu.php"
+			],
+			[
+				"timbe",
+				"timber/lib/lib/Timber.php"
+			],
+			[
+				"basetw",
+				"pidev/vendor/pi/twigextensions/src/TwigExtensions/BaseTwigExtension/BaseTwigExtension.php"
+			],
+			[
+				"standal",
+				"adrian-vidak/wp-content/plugins/envira-standalone/envira-standalone.php"
+			],
+			[
+				"func",
+				"pidev/functions.php"
+			],
+			[
+				"simpl",
+				"pidev/vendor/pi/simpletheme/src/SimpleTheme/SimpleTheme.php"
+			],
+			[
+				"theme",
+				"pidev/Theme.php"
+			],
+			[
+				"rout",
+				"pidev/vendor/pi/factory/src/Factory/Router.php"
+			],
+			[
+				"s",
+				"pidev/style.css"
+			],
+			[
+				"router",
+				"pidev/vendor/pi/factory/src/Factory/Router.php"
+			],
+			[
+				"bo",
+				"pidev/bower.json"
+			],
+			[
+				"baset",
+				"pidev/vendor/pi/factory/src/Factory/BaseTheme.php"
+			],
+			[
+				"simp",
+				"pidev/vendor/pi/simpletheme/src/SimpleTheme/SimpleTheme.php"
+			],
+			[
+				"bast",
+				"pidev/vendor/pi/factory/src/Factory/BaseTheme.php"
+			],
+			[
+				"route",
+				"pidev/vendor/pi/factory/src/Factory/Router.php"
+			],
+			[
+				"basethe",
+				"pidev/vendor/pi/factory/src/Factory/BaseTheme.php"
+			],
+			[
+				"dev",
+				"adrian-vidak/development"
+			],
+			[
+				"basthe",
+				"pidev/vendor/pi/factory/src/Factory/BaseTheme.php"
+			],
+			[
+				"coms",
+				"pidev/node_modules/grunt-git/lib/command_stash.js"
+			],
+			[
+				"rou",
+				"pidev/vendor/pi/factory/src/Factory/Router.php"
+			],
+			[
+				"the",
+				"pidev/Theme.php"
+			],
+			[
+				"themese",
+				"pidev/vendor/pi/factory/src/Factory/ThemeSettings.php"
+			],
+			[
+				"themehe",
+				"pidev/vendor/pi/factory/src/Factory/ThemeHelper.php"
+			],
+			[
+				"helper",
+				"timber/lib/lib/Helper.php"
+			],
+			[
+				"helper.p",
+				"pidev/vendor/pi/factory/src/Factory/ThemeHelper.php"
+			],
+			[
+				"volink",
+				"pidev/vendor/pi/factory/src/Factory/VO/Link.php"
+			],
+			[
+				"e001",
+				"templates/elements/e001-link/e001-link.pi"
+			],
+			[
+				"vomne",
+				"pidev/vendor/pi/factory/src/Factory/VO/Menu.php"
+			],
+			[
+				"g003",
+				"templates/groups/g003-menu/g003-menu.pi"
+			],
+			[
+				"page",
+				"templates/pages/page.pi"
+			],
+			[
+				"pitwig",
+				"pidev/vendor/pi/twigextensions/src/TwigExtensions/BaseTwigExtension/BaseTwigExtension.php"
+			],
+			[
+				"g001",
+				"templates/groups/g001-header/sass/_g001-header.scss"
+			],
+			[
+				"factthe",
+				"pidev/vendor/pi/factory/src/Factory/BaseTheme.php"
+			],
+			[
+				"app.js",
+				"pidev/assets/scripts/app.js"
+			],
+			[
+				"reset",
+				"pidev/assets/sass/base/_reset.scss"
+			],
+			[
+				"r02",
+				"templates/grids/r02-flexible/sass/_r02-flexible.scss"
+			],
+			[
+				"paral",
+				"pidev/assets/scripts/components/parallax.js"
+			],
+			[
+				"gitig",
+				"adrian-vidak/.gitignore"
+			],
+			[
+				"module",
+				"pidev/assets/scripts/components/modules.js"
+			],
+			[
+				"vars",
+				"pidev/assets/sass/utils/_vars.scss"
+			],
+			[
+				"g004",
+				"pidev/templates/groups/g004-content/sass/_g004-content.scss"
+			],
+			[
+				"skrol",
+				"pidev/assets/vendor/skrollr/src/skrollr.js"
+			],
+			[
+				"parall",
+				"pidev/assets/scripts/components/parallax.js"
+			],
+			[
+				"g009",
+				"pidev/templates/groups/g009-gallery/js/g009-gallery.js"
+			],
+			[
+				"comp",
+				"pidev/composer.json"
+			],
+			[
+				"compo",
+				"pidev/composer.json"
+			],
+			[
+				"m001",
+				"templates/modules/m001-teaser/m001-teaser.pi"
+			],
+			[
+				"pidevindex",
+				"pidev/index.php"
+			],
+			[
+				"basetht",
+				"pidev/classes/BaseThemeSettings.php"
+			],
+			[
+				"these",
+				"pidev/classes/ThemeSettings.php"
+			],
+			[
+				"m013",
+				"base/modules/m013-intro/m013-intro.j2"
+			],
+			[
+				"e002",
+				"base/elements/e002-image/e002-image.j2"
+			],
+			[
+				"m066",
+				"base/modules/m066-contentnavihierarchical/m066-contentnavihierarchical.j2"
+			],
+			[
+				"m050",
+				"base/modules/m050-linksshopsexternal/m050-linksshopsexternal.j2"
+			],
+			[
+				"m056",
+				"base/modules/m056-preparation/m056-preparation.j2"
+			],
+			[
+				"m009",
+				"base/modules/m009-mainnavi/m009-mainnavi.j2"
+			],
+			[
+				"lazy",
+				"base/global/js/libraries/lazysizes.js"
+			],
+			[
+				"m035",
+				"base/modules/m035-lightbox/m035-lightbox.j2"
+			],
+			[
+				"g007",
+				"base/module-groups/g007-recipe/sass/g007-recipe.scss"
+			],
+			[
+				"m033",
+				"base/modules/m033-nutritiontable/sass/m033-nutritiontable.scss"
+			],
+			[
+				"e003",
+				"base/elements/e003-form/e003-form.j2"
+			],
+			[
+				"g505",
+				"professional/module-groups/g505-contact/sass/g505-contact.scss"
+			],
+			[
+				"m032",
+				"base/modules/m032-rte/m032-rte.j2"
+			],
+			[
+				"stage-pa",
+				"base/page-types/t159-paulaparallaxprototype/models/stage-paula.json"
+			],
+			[
+				"main",
+				"styleguide/css/main.css"
+			],
+			[
+				"sass.",
+				"styleguide/pages/sass.md"
+			],
+			[
+				"style",
+				"responsive-2015/source/application/library/server/routes/styleguide.js"
+			],
+			[
+				"t159stage",
+				"base/page-types/t159-paulaparallaxprototype/models/stage-paula.json"
+			],
+			[
+				"m182",
+				"base/modules/m182-animatedbackgroundasset/m182-animatedbackgroundasset.j2"
+			],
+			[
+				"m031",
+				"base/modules/m031-background/m031-background.j2"
+			],
+			[
+				"t159",
+				"base/page-types/t159-paulaparallaxprototype/t159-paulaparallaxprototype.j2"
+			],
+			[
+				"m048",
+				"base/modules/m048-image/sass/m048-image.scss"
+			],
+			[
+				"g011",
+				"base/module-groups/g011-search/g011-search.j2"
+			],
+			[
+				"e007",
+				"base/elements/e007-recipeicons/e007-recipeicons.j2"
+			],
+			[
+				"m047",
+				"base/modules/m047-searchresult/m047-searchresult.j2"
+			],
+			[
+				"m504",
+				"professional/modules/m504-filtermultiplechoicelist/sass/m504-filtermultiplechoicelist.scss"
+			],
+			[
+				"m509",
+				"professional/modules/m509-logistic/m509-logistic.j2"
+			],
+			[
+				"g507",
+				"professional/module-groups/g507-product/g507-product.j2"
+			],
+			[
+				"g502",
+				"professional/module-groups/g502-filter/g502-filter.j2"
+			],
+			[
+				"g503",
+				"professional/module-groups/g503-search/g503-search.j2"
+			],
+			[
+				"allergens",
+				"professional/module-groups/g503-search/models/products/allergens.json"
+			],
+			[
+				"help",
+				"responsive-2015/source/application/library/styleguide/helper.js"
+			],
+			[
+				"styleguideinde",
+				"responsive-2015/source/application/library/styleguide/index.js"
+			],
+			[
+				"m101",
+				"base/modules/m101-allergensearch/js/m101-allergensearch.js"
+			],
+			[
+				"g013",
+				"base/module-groups/g013-form/macros/g013-formfieldtextarea.j2"
+			],
+			[
+				"m020",
+				"base/modules/m020-hintsgallery/m020-hintsgallery.j2"
+			],
+			[
+				"m030",
+				"base/modules/m030-bookmark/m030-bookmark.j2"
+			],
+			[
+				"mais",
+				"responsive-2015/source/application/node_modules/jshint/data/non-ascii-identifier-start.js"
+			],
+			[
+				"mainc",
+				"styleguide/css/main.css"
+			],
+			[
+				"m002",
+				"base/modules/m002-teaser/m002-teaser.j2"
+			],
+			[
+				"g508",
+				"professional/module-groups/g508-recipe/g508-recipe.j2"
+			],
+			[
+				"m556",
+				"professional/modules/m556-preparation/sass/m556-preparation.scss"
+			],
+			[
+				"m174",
+				"base/modules/m174-promotiongallery/js/m174-promotiongallery.js"
+			],
+			[
+				"g005",
+				"styleguide/templates/groups/g005-navigation/g005-navigation.j2"
+			],
+			[
+				"styleg",
+				"responsive-2015/source/application/library/server/routes/styleguide.js"
+			],
+			[
+				"start",
+				"styleguide/templates/pages/start.j2"
+			],
+			[
+				"m529",
+				"professional/modules/m529-ingredientscalculator/m529-ingredientscalculator.j2"
+			],
+			[
+				"tracking",
+				"base/global/macros/tracking.j2"
+			],
+			[
+				"m104",
+				"base/modules/m104-login/m104-login.j2"
+			],
+			[
+				"g04",
+				"base/module-groups/g048-ourhelpers/g048-ourhelpers.j2"
+			],
+			[
+				"track",
+				"base/global/js/oetker/tracking.js"
+			],
+			[
+				"basi",
+				"styleguide/templates/pages/basics.j2"
+			],
+			[
+				"sta",
+				"styleguide/templates/pages/start.j2"
+			],
+			[
+				"stage-paul",
+				"base/page-types/t159-paulaparallaxprototype/models/stage-paula.json"
+			],
+			[
+				"lib",
+				"base/global/js/libraries/libbpg.js"
+			],
+			[
+				"m012",
+				"base/modules/m012-stage/sass/m012-stage.scss"
+			],
+			[
+				"t100",
+				"base/page-types/t100-presscontacts/t100-presscontacts.j2"
+			],
+			[
+				"m115",
+				"base/modules/m115-presscontact/sass/m115-presscontact.scss"
+			],
+			[
+				"m159",
+				"base/modules/m159-cookies/sass/m159-cookies.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/privat/adrian-vidak/adrian-vidak.sublime-project"
+			],
+			[
+				"wp-",
+				"~/Sites/privat/wp-factory-packages/wp-factory-packages.sublime-project"
+			],
+			[
+				"fac",
+				"~/Sites/privat/wp-factory-packages/wp-factory-packages.sublime-project"
+			],
+			[
+				"red",
+				"~/Sites/privat/redmine-theme/redmine-theme.sublime-project"
+			],
+			[
+				"adr",
+				"~/Sites/privat/adrian-vidak/adrian-vidak.sublime-project"
+			],
+			[
+				"ad",
+				"~/Sites/privat/adrian-vidak/adrian-vidak.sublime-project"
+			],
+			[
+				"bon",
+				"~/Sites/syzygy/bongrain/bongrain.sublime-project"
+			],
+			[
+				"bong",
+				"~/Sites/syzygy/bongrain/bongrain.sublime-project"
+			],
+			[
+				"fr",
+				"~/Sites/syzygy/oetker/frontend.oetker.de/responsive-2015/oetker-frontend.sublime-project"
+			],
+			[
+				"p",
+				"~/Sites/privat/pi-cms/pi-cms.sublime-project"
+			],
+			[
+				"pi",
+				"~/Sites/privat/pi-cms/pi-cms.sublime-project"
+			],
+			[
+				"piu",
+				"~/Sites/privat/pi-cms/pi-cms.sublime-project"
+			],
+			[
+				"BO",
+				"~/Sites/syzygy/bongrain/bongrain.sublime-project"
+			],
+			[
+				"i",
+				"~/Sites/privat/pi-cms/pi-cms.sublime-project"
+			],
+			[
+				"old",
+				"~/Sites/syzygy/oetker/frontend/old-frontend-oetker.sublime-project"
+			],
+			[
+				"bo",
+				"~/Sites/syzygy/bongrain/bongrain.sublime-project"
+			],
+			[
+				"pic",
+				"~/Sites/privat/pi-cms/pi-cms.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

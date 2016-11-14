@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "PI\\Configuration\\": "src/Configuration/"
+      "PI\\Configuration\\": "src/Configuration"
     }
   },
   "config": {

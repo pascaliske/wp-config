@@ -20,14 +20,16 @@ class Configuration {
 	}
 
 	private function resolveConfig() {
-		$config = array();
+		$data = array();
 		$files = sprintf('%s/conf/%s/*.yml', $this->rootPath, $this->environment);
 
 		foreach (glob($files) as $file) {
-			$config = array_merge($config, Yaml::parse(file_get_contents($file)));
+			$filename = explode('/', $file);
+			$filename = str_replace('.yml', '', end($filename));
+			$data[$filename] = Yaml::parse(file_get_contents($file));
 		}
 
-		$this->options = array_merge($this->options, $config);
+		$this->options = array_merge($this->options, $data);
 	}
 
 	private function resolveHostname() {
@@ -39,11 +41,10 @@ class Configuration {
 		}
 
 		// are we in a cli?
-		if ((PHP_SAPI == 'cli' || php_sapi_name() == 'cli') && defined('WP_CLI_ROOT')) {
+		if ((PHP_SAPI == 'cli' || php_sapi_name() == 'cli')) {
 			$hostname = 'cli';
 		}
 
-		$this->options['hostname'] = $hostname;
 		$this->hostname = $hostname;
 	}
 
@@ -63,7 +64,7 @@ class Configuration {
 		}
 
 		// try cli arguments
-		if ((PHP_SAPI == 'cli' || php_sapi_name() == 'cli') && defined('WP_CLI_ROOT')) {
+		if ((PHP_SAPI == 'cli' || php_sapi_name() == 'cli')) {
 			foreach ($argv as $arg) {
 				if (preg_match('/--env=(.+)/', $arg, $match)) {
 					$environment = $match[1];
@@ -71,23 +72,22 @@ class Configuration {
 			}
 		}
 
-		$this->options['environment'] = $environment;
 		$this->environment = $environment;
 	}
 
 	public function get($option, $default=null) {
 		if (strpos($option, ':') != false) {
-			$value = $this->options;
+			$options = $this->options;
 
 			foreach (explode(':', $option) as $key) {
-				if (!isset($value[$key])) {
+				if (!isset($options[$key])) {
 					break;
 				}
 
-				$value = $value[$key];
+				$options = $options[$key];
 			}
 
-			return $value ?: $default;
+			return $options ?: $default;
 		}
 
 		return $this->options[$option] ?: $default;

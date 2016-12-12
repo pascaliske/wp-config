@@ -13,10 +13,10 @@ trim_trailing_whitespace = true
 indent_style = tab
 indent_size = 4
 
-[*.{yml,json}]
+[*.{yml,json,coffee}]
 indent_style = space
 indent_size = 2
 
-[{package.json,config.js,yarn.lock}]
+[{package.json,bower.json,config.js,yarn.lock,.eslintrc,.bowerrc}]
 indent_style = space
 indent_size = 2

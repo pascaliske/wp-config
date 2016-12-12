@@ -87,7 +87,7 @@ class Configuration {
 	 * @return [void]
 	 */
 	private function resolveHostname() {
-		$hostname = $_SERVER['HTTP_HOST'] ?: '';
+		$hostname = (isset($_SERVER['HTTP_HOST'])) ? $_SERVER['HTTP_HOST'] : '';
 
 		// fetch hostname
 		if (isset($_SERVER['HTTP_X_FORWARDED_HOST']) && !empty($_SERVER['HTTP_X_FORWARDED_HOST'])) {
@@ -100,6 +100,7 @@ class Configuration {
 		}
 
 		$this->hostname = $hostname;
+		$this->options['hostname'] = $hostname;
 	}
 
 	/**
@@ -133,6 +134,7 @@ class Configuration {
 		}
 
 		$this->environment = $environment;
+		$this->options['environment'] = $environment;
 	}
 
 	/**

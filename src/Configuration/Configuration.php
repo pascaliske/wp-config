@@ -6,9 +6,13 @@ use Symfony\Component\Yaml\Yaml;
 class Configuration {
 	private $environment;
 	private $hostname;
+	private $argv;
 	private $options;
 
 	public function __construct($rootPath, UrlSet $urls) {
+		global $argv;
+
+		$this->argv = $argv ?: array();
 		$this->rootPath = $rootPath;
 		$this->urls = $urls;
 
@@ -33,7 +37,7 @@ class Configuration {
 	}
 
 	private function resolveHostname() {
-		$hostname = $_SERVER['HTTP_HOST'];
+		$hostname = $_SERVER['HTTP_HOST'] ?: '';
 
 		// fetch hostname
 		if (isset($_SERVER['HTTP_X_FORWARDED_HOST']) && !empty($_SERVER['HTTP_X_FORWARDED_HOST'])) {
@@ -65,7 +69,7 @@ class Configuration {
 
 		// try cli arguments
 		if ((PHP_SAPI == 'cli' || php_sapi_name() == 'cli')) {
-			foreach ($argv as $arg) {
+			foreach ($this->argv as $arg) {
 				if (preg_match('/--env=(.+)/', $arg, $match)) {
 					$environment = $match[1];
 				}

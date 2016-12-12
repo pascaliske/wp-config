@@ -4,11 +4,66 @@ namespace PI\Configuration;
 use Symfony\Component\Yaml\Yaml;
 
 class Configuration {
-	private $environment;
-	private $hostname;
+	/* Constants ------------------------------------------------------------------------- */
+
+	/**
+	 * The env variables
+	 *
+	 * @access private
+	 * @var [Array]
+	 */
 	private $argv;
+
+	/**
+	 * The root path
+	 *
+	 * @access private
+	 * @var [String]
+	 */
+	private $rootPath;
+
+	/**
+	 * The urls
+	 *
+	 * @access private
+	 * @var [UrlSet]
+	 */
+	private $urls;
+
+	/**
+	 * The options
+	 *
+	 * @access private
+	 * @var [Array]
+	 */
 	private $options;
 
+	/**
+	 * The resolved hostname
+	 *
+	 * @access private
+	 * @var [String]
+	 */
+	private $hostname;
+
+	/**
+	 * The resolved environment
+	 *
+	 * @access private
+	 * @var [String]
+	 */
+	private $environment;
+
+	/* Constructor ----------------------------------------------------------------------- */
+
+	/**
+	 * Instanciates configuration helper
+	 *
+	 * @access public
+	 * @param [String] $rootPath
+	 * @param [UrlSet] $urls
+	 * @return [void]
+	 */
 	public function __construct($rootPath, UrlSet $urls) {
 		global $argv;
 
@@ -23,19 +78,14 @@ class Configuration {
 		$this->resolveConfig();
 	}
 
-	private function resolveConfig() {
-		$data = array();
-		$files = sprintf('%s/conf/%s/*.yml', $this->rootPath, $this->environment);
+	/* Private --------------------------------------------------------------------------- */
 
-		foreach (glob($files) as $file) {
-			$filename = explode('/', $file);
-			$filename = str_replace('.yml', '', end($filename));
-			$data[$filename] = Yaml::parse(file_get_contents($file));
-		}
-
-		$this->options = array_merge($this->options, $data);
-	}
-
+	/**
+	 * Resolves the hostname
+	 *
+	 * @access private
+	 * @return [void]
+	 */
 	private function resolveHostname() {
 		$hostname = $_SERVER['HTTP_HOST'] ?: '';
 
@@ -52,6 +102,12 @@ class Configuration {
 		$this->hostname = $hostname;
 	}
 
+	/**
+	 * Resolves the environment
+	 *
+	 * @access private
+	 * @return [void]
+	 */
 	private function resolveEnvironment() {
 		$environment = 'production';
 
@@ -79,6 +135,35 @@ class Configuration {
 		$this->environment = $environment;
 	}
 
+	/**
+	 * Resolves all config files
+	 *
+	 * @access private
+	 * @return [void]
+	 */
+	private function resolveConfig() {
+		$data = array();
+		$files = sprintf('%s/conf/%s/*.yml', $this->rootPath, $this->environment);
+
+		foreach (glob($files) as $file) {
+			$filename = explode('/', $file);
+			$filename = str_replace('.yml', '', end($filename));
+			$data[$filename] = Yaml::parse(file_get_contents($file));
+		}
+
+		$this->options = array_merge($this->options, $data);
+	}
+
+	/* Public ---------------------------------------------------------------------------- */
+
+	/**
+	 * Returns the value for the given key
+	 *
+	 * @access public
+	 * @param  [String] $option
+	 * @param  [Mixed] $default
+	 * @return [Mixed]
+	 */
 	public function get($option, $default=null) {
 		if (strpos($option, ':') != false) {
 			$options = $this->options;

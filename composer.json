@@ -1,6 +1,6 @@
 {
   "name": "pi/wp-config",
-  "homepage": "https://pascal-iske.de/wordpress/",
+  "description": "",
   "authors": [
     {
       "name": "Pascal Iske",
@@ -8,6 +8,7 @@
       "homepage": "https://pascal-iske.de/"
     }
   ],
+  "homepage": "https://pascal-iske.de/packages/",
   "keywords": [
     "wordpress", "stack", "composer", "vagrant", "wp"
   ],
@@ -19,20 +20,31 @@
       "PI\\Configuration\\": "src/Configuration"
     }
   },
-  "config": {
-    "preferred-install": "dist"
+  "autoload-dev": {
+    "psr-4": {
+      "PI\\Configuration\\Tests\\": "tests/Configuration"
+    }
   },
+  "archive": {
+    "exclude": [
+      ".git",
+      ".editorconfig",
+      "phpunit.xml",
+      "*.sublime-*",
+      "tests"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url" : "https://dev.pascal-iske.de/packages/"
+    }
+  ],
   "require": {
     "php": ">=5.6",
-    "symfony/yaml": "^3.1"
+    "symfony/yaml": "^3.2"
   },
-  "archive" : {
-    "exclude": [
-      "phpcs.xml",
-      "phpunit.xml",
-      "tests",
-      "wp-setup.sublime-project",
-      "wp-setup.sublime-workspace"
-    ]
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
   }
 }

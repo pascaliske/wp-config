@@ -1,2 +1,7 @@
-wp-config.sublime-workspace
+# files
 .DS_Store
+*.sublime-*
+composer.lock
+
+# directories
+vendor

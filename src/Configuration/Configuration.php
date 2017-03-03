@@ -4,7 +4,7 @@ namespace PI\Configuration;
 use Symfony\Component\Yaml\Yaml;
 
 class Configuration {
-	/* Constants ------------------------------------------------------------------------- */
+	/** --- constants --- **/
 
 	/**
 	 * The env variables
@@ -54,7 +54,7 @@ class Configuration {
 	 */
 	private $environment;
 
-	/* Constructor ----------------------------------------------------------------------- */
+    /** --- constructor --- **/
 
 	/**
 	 * Instanciates configuration helper
@@ -78,7 +78,7 @@ class Configuration {
 		$this->resolveConfig();
 	}
 
-	/* Private --------------------------------------------------------------------------- */
+    /** --- private --- **/
 
 	/**
 	 * Resolves the hostname
@@ -156,7 +156,7 @@ class Configuration {
 		$this->options = array_merge($this->options, $data);
 	}
 
-	/* Public ---------------------------------------------------------------------------- */
+    /** --- public --- **/
 
 	/**
 	 * Returns the value for the given key

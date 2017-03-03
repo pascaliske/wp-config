@@ -2,7 +2,7 @@
 namespace PI\Configuration;
 
 class UrlSet {
-	/* Constants ------------------------------------------------------------------------- */
+    /** --- constants --- **/
 
 	/**
 	 * Production URLs
@@ -28,7 +28,7 @@ class UrlSet {
 	 */
 	private $development;
 
-	/* Constructor ----------------------------------------------------------------------- */
+	/** --- constructor --- **/
 
 	/**
 	 * Instanciates a new url set with default urls
@@ -46,7 +46,9 @@ class UrlSet {
 		);
 	}
 
-	/* Public ---------------------------------------------------------------------------- */
+	/** --- private --- **/
+
+    /** --- public --- **/
 
 	/**
 	 * Sets new urls to an environment
@@ -56,7 +58,9 @@ class UrlSet {
 	 * @param [Mixed] $urls
 	 * @return [void]
 	 */
-	public function set(String $env='production', $urls) {
+	public function set(string $env=null, $urls) {
+        $env = $env ?: 'production';
+
 		if (!is_array($urls)) {
 			$urls = array($urls);
 		}
@@ -72,7 +76,9 @@ class UrlSet {
 	 * @param  [String] $key
 	 * @return [Array]
 	 */
-	public function get(String $env='production') {
+	public function get(string $env=null) {
+        $env = $env ?: 'production';
+
 		return $this->environment[$env];
 	}
 }

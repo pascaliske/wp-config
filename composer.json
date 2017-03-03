@@ -9,6 +9,7 @@
     }
   ],
   "homepage": "https://pascal-iske.de/packages/",
+  "license": "MIT",
   "keywords": [
     "wordpress", "stack", "composer", "vagrant", "wp"
   ],

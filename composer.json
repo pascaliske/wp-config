@@ -8,8 +8,8 @@
       "homepage": "https://pascal-iske.de/"
     }
   ],
-  "homepage": "https://pascal-iske.de/packages/",
   "license": "MIT",
+  "homepage": "https://pascal-iske.de/packages/",
   "keywords": [
     "wordpress", "stack", "composer", "vagrant", "wp"
   ],

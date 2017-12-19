@@ -98,6 +98,11 @@ class Configuration {
             $hostname = 'cli';
         }
 
+        // ignore ports on urls
+        if (strpos($hostname, ':') !== false) {
+            $hostname = substr($hostname, 0, strpos($hostname, ':'));
+        }
+
         $this->hostname = $hostname;
         $this->options['hostname'] = $hostname;
     }

@@ -5,24 +5,31 @@ class Environment {
     /** --- constants --- **/
 
     /**
-     * The root path
+     * The root path.
      *
      * @access private
-     * @var [String]
+     * @var string
      */
     private $rootPath;
 
     /**
-     * The package
+     * The package.
      *
      * @access private
-     * @var [Array]
+     * @var array
      */
     private $package;
 
     /** --- constructor --- **/
 
-    public function __construct($rootPath) {
+    /**
+     * Initializes the environment.
+     *
+     * @access public
+     * @param string $rootPath
+     * @return Environment
+     */
+    public function __construct($rootPath = '') {
         $this->rootPath = $rootPath;
         $this->package = $this->fetchPackage();
     }
@@ -30,10 +37,10 @@ class Environment {
     /** --- private --- **/
 
     /**
-     * Fetches the package
+     * Fetches the package.
      *
      * @access protected
-     * @return [Array]
+     * @return array
      */
     protected function fetchPackage() {
         $file = sprintf('%s/package.json', $this->rootPath);
@@ -44,14 +51,14 @@ class Environment {
     /** --- public --- **/
 
     /**
-     * Returns the value for the given key
+     * Returns the value for the given key.
      *
      * @access public
-     * @param  [String] $key
-     * @param  [Mixed] $default
-     * @return [Mixed]
+     * @param  string $key
+     * @param  mixed $default
+     * @return mixed
      */
-    public function get($key, $default=null) {
+    public function get($key, $default = null) {
         if (strpos($key, ':') != false) {
             $data = $this->package;
 

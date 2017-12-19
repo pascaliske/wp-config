@@ -9,14 +9,6 @@ charset = utf-8
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{php,js,pi,html,scss,json}]
-indent_style = space
-indent_size = 4
-
-[*.{yml,json,coffee}]
-indent_style = space
-indent_size = 2
-
-[{package.json,bower.json,config.js,yarn.lock,.eslintrc,.bowerrc}]
+[*.{yml,json}]
 indent_style = space
 indent_size = 2

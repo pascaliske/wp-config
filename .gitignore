@@ -1,5 +1,6 @@
 # files
 .DS_Store
+*.code-*
 *.sublime-*
 composer.lock
 

@@ -5,28 +5,12 @@ class UrlSet {
     /** --- constants --- **/
 
     /**
-     * Production URLs.
+     * Environment URLs.
      *
      * @access private
      * @var array
      */
-    private $production;
-
-    /**
-     * Staging URLs.
-     *
-     * @access private
-     * @var array
-     */
-    private $staging;
-
-    /**
-     * Development URLs.
-     *
-     * @access private
-     * @var array
-     */
-    private $development;
+    private $environment;
 
     /** --- constructor --- **/
 
@@ -35,11 +19,7 @@ class UrlSet {
      *
      * @return void
      */
-    public function __construct() {
-        $this->environment['production'] = array();
-        $this->environment['staging'] = array();
-        $this->environment['development'] = array();
-    }
+    public function __construct() {}
 
     /** --- private --- **/
 
@@ -53,11 +33,17 @@ class UrlSet {
      * @param mixed $urls
      * @return void
      */
-    public function set(string $env = null, $urls = null) {
-        $env = $env ?: 'production';
+    public function set(string $env = 'production', $urls = null) {
+        if (is_null($urls)) {
+            return null;
+        }
 
         if (!is_array($urls)) {
             $urls = array($urls);
+        }
+
+        if (!isset($this->environment[$env])) {
+            $this->environment[$env] = array();
         }
 
         // merge with existing values
@@ -71,8 +57,10 @@ class UrlSet {
      * @param  string $key
      * @return array
      */
-    public function get(string $env = null) {
-        $env = $env ?: 'production';
+    public function get(string $env = 'production') {
+        if (!isset($this->environment[$env])) {
+            return null;
+        }
 
         return $this->environment[$env];
     }

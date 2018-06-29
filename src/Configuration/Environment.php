@@ -1,6 +1,8 @@
 <?php
 namespace PI\Configuration;
 
+use Composer\Factory;
+
 class Environment {
     /** --- constants --- **/
 
@@ -10,15 +12,15 @@ class Environment {
      * @access private
      * @var string
      */
-    private $rootPath;
+    private $root;
 
     /**
-     * The package.
+     * The env.
      *
      * @access private
      * @var array
      */
-    private $package;
+    private $env;
 
     /** --- constructor --- **/
 
@@ -26,24 +28,23 @@ class Environment {
      * Initializes the environment.
      *
      * @access public
-     * @param string $rootPath
      * @return Environment
      */
-    public function __construct($rootPath = '') {
-        $this->rootPath = $rootPath;
-        $this->package = $this->fetchPackage();
+    public function __construct() {
+        $this->root = dirname(Factory::getComposerFile());
+        $this->env = $this->fetchEnvironment();
     }
 
     /** --- private --- **/
 
     /**
-     * Fetches the package.
+     * Fetches the env.
      *
      * @access protected
      * @return array
      */
-    protected function fetchPackage() {
-        $file = sprintf('%s/package.json', $this->rootPath);
+    protected function fetchEnvironment($file = 'composer.json') {
+        $file = sprintf('%s/%s', $this->root, $file);
         $contents = file_get_contents($file);
         return json_decode($contents, true);
     }
@@ -60,7 +61,7 @@ class Environment {
      */
     public function get($key, $default = null) {
         if (strpos($key, ':') != false) {
-            $data = $this->package;
+            $data = $this->env;
 
             foreach (explode(':', $key) as $key) {
                 if (!isset($data[$key])) {
@@ -73,6 +74,6 @@ class Environment {
             return $data ?: $default;
         }
 
-        return $this->package[$key] ?: $default;
+        return $this->env[$key] ?: $default;
     }
 }

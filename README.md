@@ -1,7 +1,6 @@
 # `pi/wp-config`
 
-[![build status](https://git.pascal-iske.de/pascaliske/wp-config/badges/master/build.svg)](https://git.pascal-iske.de/pascaliske/wp-config/commits/master)
-[![coverage report](https://git.pascal-iske.de/pascaliske/wp-config/badges/master/coverage.svg)](https://git.pascal-iske.de/pascaliske/wp-config/commits/master)
+[![Build Status](https://travis-ci.com/pascaliske/wp-config.svg?branch=master)](https://travis-ci.com/pascaliske/wp-config)
 
 > Package for easy WordPress configurations
 

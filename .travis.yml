@@ -2,6 +2,6 @@ language: php
 php:
   - '7.0'
 install:
-  - vendor/bin/composer install --no-suggest --no-progress --no-interaction
+  - composer install --no-suggest --no-progress --no-interaction
 script:
   - vendor/bin/phpunit --configuration .phpunit.xml --disallow-todo-tests

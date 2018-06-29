@@ -15,7 +15,7 @@
     "wordpress", "stack", "composer", "vagrant", "wp"
   ],
   "support": {
-    "issues": "https://git.pascal-iske.de/pascaliske/wp-config/issues"
+    "issues": "https://github.com/pascaliske/wp-config/issues"
   },
   "autoload": {
     "psr-4": {

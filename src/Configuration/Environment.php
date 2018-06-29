@@ -1,7 +1,7 @@
 <?php
 namespace PI\Configuration;
 
-use Composer\Factory;
+use ComposerLocator;
 
 class Environment {
     /** --- constants --- **/
@@ -31,7 +31,7 @@ class Environment {
      * @return Environment
      */
     public function __construct() {
-        $this->root = dirname(Factory::getComposerFile());
+        $this->root = ComposerLocator::getRootPath();
         $this->env = $this->fetchEnvironment();
     }
 

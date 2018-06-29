@@ -1,7 +1,7 @@
 {
   "name": "pi/wp-config",
   "description": "WordPress environment specific config setup.",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "Pascal Iske",
@@ -15,7 +15,7 @@
     "wordpress", "stack", "composer", "vagrant", "wp"
   ],
   "support": {
-    "issues": "https://git.pascal-iske.de/pascaliske/wp-config/issues"
+    "issues": "https://github.com/pascaliske/wp-config/issues"
   },
   "autoload": {
     "psr-4": {
@@ -47,7 +47,7 @@
   "require": {
     "php": ">=5.6",
     "symfony/yaml": "^3.2",
-    "composer/composer": "^1.6"
+    "mindplay/composer-locator": "^2.1"
   },
   "require-dev": {
     "phpunit/phpunit": "4.*"

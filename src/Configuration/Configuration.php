@@ -1,6 +1,7 @@
 <?php
 namespace PI\Configuration;
 
+use Composer\Factory;
 use Symfony\Component\Yaml\Yaml;
 
 class Configuration {
@@ -20,7 +21,7 @@ class Configuration {
      * @access private
      * @var string
      */
-    private $rootPath;
+    private $root;
 
     /**
      * The urls.
@@ -60,15 +61,14 @@ class Configuration {
      * Instanciates configuration helper.
      *
      * @access public
-     * @param string $rootPath
      * @param UrlSet $urls
      * @return void
      */
-    public function __construct($rootPath, UrlSet $urls) {
+    public function __construct(UrlSet $urls) {
         global $argv;
 
         $this->argv = $argv ?: array();
-        $this->rootPath = $rootPath;
+        $this->root = dirname(Factory::getComposerFile());
         $this->urls = $urls;
 
         $this->options = array();
@@ -149,7 +149,7 @@ class Configuration {
      */
     private function resolveConfig() {
         $data = array();
-        $files = sprintf('%s/conf/%s/*.yml', $this->rootPath, $this->environment);
+        $files = sprintf('%s/conf/%s/*.yml', $this->root, $this->environment);
 
         foreach (glob($files) as $file) {
             $filename = explode('/', $file);

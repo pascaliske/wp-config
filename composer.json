@@ -1,6 +1,7 @@
 {
   "name": "pi/wp-config",
   "description": "",
+  "version": "2.0.0",
   "authors": [
     {
       "name": "Pascal Iske",
@@ -30,8 +31,10 @@
     "exclude": [
       ".git",
       ".editorconfig",
-      "phpunit.xml",
+      ".travis.yml",
+      ".phpunit.xml",
       "*.sublime-*",
+      "*.code-*",
       "tests"
     ]
   },
@@ -43,7 +46,8 @@
   ],
   "require": {
     "php": ">=5.6",
-    "symfony/yaml": "^3.2"
+    "symfony/yaml": "^3.2",
+    "composer/composer": "^1.6"
   },
   "require-dev": {
     "phpunit/phpunit": "4.*"

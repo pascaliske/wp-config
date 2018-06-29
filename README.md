@@ -26,24 +26,36 @@ $ composer require pi/wp-config
 
 ## Usage
 
+Create the following folder structure:
+
+```bash
+$ tree conf
+conf
+├── development
+├── production
+└── staging
+
+3 directories, 0 files
+```
+
+In your WordPress config require the composer autoload file and then you can initialize the config setup:
+
 ```php
-$root = dirname(__DIR__);
+// detect the environment
+$env = new PI\Configuration\Environment();
 
-$env = new PI\Configuration\Environment($root);
-
-// set env urls
+// map urls to specific environments
 $urls = new PI\Configuration\UrlSet();
-$urls->set('production', 'adrian-vidak.de');
-$urls->set('staging', 'preview-staging-adrian-vidak-de.pascal-iske.de');
+$urls->set('production', 'production.url');
+$urls->set('staging', 'staging.url');
 $urls->set('development', array(
-    'local.dev',
-    'client-project.dev'
+    'local.url',
+    'project.url'
 ));
 
-// set configuration
-$config = new PI\Configuration\Configuration($root, $urls);
-
-$config->get('')
+// access your configuration based on the current environment
+$config = new PI\Configuration\Configuration($urls);
+$config->get('file:key:subkey'); //
 ```
 
 ## License

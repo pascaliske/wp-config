@@ -1,7 +1,7 @@
 <?php
 namespace PI\Configuration;
 
-use Composer\Factory;
+use ComposerLocator;
 use Symfony\Component\Yaml\Yaml;
 
 class Configuration {
@@ -68,7 +68,7 @@ class Configuration {
         global $argv;
 
         $this->argv = $argv ?: array();
-        $this->root = dirname(Factory::getComposerFile());
+        $this->root = ComposerLocator::getRootPath();
         $this->urls = $urls;
 
         $this->options = array();

@@ -40,21 +40,21 @@ conf
 In your WordPress config require the composer autoload file and then you can initialize the config setup:
 
 ```php
-// detect the environment
-$env = new PI\Configuration\Environment();
-
 // map urls to specific environments
 $urls = new PI\Configuration\UrlSet();
-$urls->set('production', 'production.url');
-$urls->set('staging', 'staging.url');
+$urls->set('production', '<production-domain>');
+$urls->set('staging', '<staging-domain>');
 $urls->set('development', array(
-    'local.url',
-    'project.url'
+    '<local-domain>',
+    '<other-domain>',
 ));
 
-// access your configuration based on the current environment
-$config = new PI\Configuration\Configuration($urls);
-$config->get('file:key:subkey'); //
+// access your environment and configuration
+$env = new PI\Configuration\Environment($urls);
+$config = $env->config();
+
+$env->version; // returns the version string from composer file
+$config->get('file:key:subkey'); // returns the value for the given key path
 ```
 
 ## License
